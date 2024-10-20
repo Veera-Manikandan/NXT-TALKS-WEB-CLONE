@@ -1,0 +1,705 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+/*--------------Header-Style---------------*/
+
+.background-size {
+    height: 50vh;
+    width: 100%;
+    margin-bottom: 60px;
+
+}
+
+.video-background {
+    margin-left: -600px;
+    position: absolute;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 149vw;
+    overflow: hidden;
+    z-index: -1;
+
+}
+
+
+#bg-video {
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.content-image-alter {
+    margin-top: 320px;
+    margin-left: 30px;
+
+}
+
+.text-alter-content {
+    margin-left: -1050px;
+    margin-top: 40px;
+}
+
+.nxt-talks-container {
+    background-image: linear-gradient(-50deg, #044885, #044885, #3A368C, #3A368C, #0c6da4);
+    background-size: cover;
+    height: 100%;
+    margin-bottom: -55px;
+}
+
+.nxt-talks-video-alter {
+    position: relative;
+    margin-top: 10px;
+    background-size: cover;
+}
+
+.nxt-talks-para-alter {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 130px;
+
+}
+
+
+
+.line {
+    color: white;
+    font-weight: 650;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.text-slider-head-alter {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.line-span {
+    color: #44ED01;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.nxt-talks-animated-text-img-alter {
+    height: 40px;
+    width: 110px;
+    margin-left: 5px;
+}
+
+.nxt-talks-animated-text-img-alter-1 {
+    height: 25px;
+    width: 90px;
+    margin-top: -8px;
+}
+
+.text-slider {
+    width: 400px;
+    height: 100px;
+    overflow: hidden;
+    border: 0px solid #333;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.text-sliderr {
+    width: 400px;
+    height: 100px;
+    overflow: hidden;
+    border: 0px solid #333;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-left: -10px;
+    margin-top: 80px;
+}
+
+.slider-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    animation: slideUp 10s linear infinite;
+}
+
+.slider-content p {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+@keyframes slideUp {
+    0% {
+        top: 100%;
+    }
+
+    100% {
+        top: -500%;
+    }
+}
+
+.nxt-talks-container-btn {
+    background-color: #4C45F5;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    height: 50px;
+    width: 370px;
+    font-weight: 550;
+    border-radius: 10px;
+    border-width: 0px;
+
+
+}
+
+.nxt-talks-container-btn-1 {
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    height: 50px;
+    width: 370px;
+    font-weight: 550;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: white;
+
+
+}
+
+.header-h-alter {
+    color: white;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+
+.header-h-alter-span {
+    font-weight: bold;
+    color: #7DDA58;
+    font-size: 25px;
+
+}
+
+.fa-indian-rupee-sign {
+    HEIGHT: 10px;
+    width: 20px;
+    color: white;
+}
+
+.header-h-alter-img-alter {
+    height: 30px;
+    width: 70px;
+    font-weight: bold;
+    margin-left: -30px;
+    border-top-left-radius: 170px;
+    margin-left: -50px;
+}
+
+/*-----------------Article-Style------------*/
+
+.nxt-talks-container-2 {
+    background-color: #04024B;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin-top: 55px;
+}
+
+.nxt-talks-container-2-h-alter {
+    color: white;
+    font-weight: 550px;
+    font-size: 27px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.marquee-alter {
+    height: 40px;
+    line-height: 25px;
+    margin-top: 25px;
+
+}
+
+.nxt-talks-container-3 {
+    background-image: url("https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/64362e90abbff4b212d25fe3_A%20Rare%20Collection%20of%20Insider%20%20Knowledge%2C%20All%20Yours!%20(1).png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.nxt-talks-container-3-h-alter {
+    color: white;
+    font-weight: 550px;
+    font-size: 27px;
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+.nxt-talks-container-3-p-alter {
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.carousel-container {
+    width: 100%;
+    overflow-x: auto;
+    display: flex;
+    justify-content: flex-start;
+    scroll-behavior: smooth;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+
+}
+
+.carousel-container::-webkit-scrollbar {
+    display: none;
+}
+
+.button-carousel {
+    display: flex;
+    gap: 20px;
+}
+
+.carousel-btn {
+    background-color: transparent;
+    border-width: 1px solid;
+    border-color: #e3f1f1;
+    color: white;
+    width: 130px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 75px;
+}
+
+.carousel-btn:hover {
+    background-color: #e3f1f1;
+}
+
+.carousel-container-img-alter {
+    height: 20px;
+    margin-left: -20px;
+}
+
+.carousel-btn-spl-alter {
+    background-color: #e3f1f1;
+    border-width: 1px solid;
+    border-color: #e3f1f1;
+    color: black;
+    width: 130px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 75px;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    height: 100vh;
+    width: 100%;
+    white-space: nowrap;
+    margin-bottom: -250px;
+
+
+
+}
+
+
+
+.card {
+    flex: 0 0 70%;
+    height: 60vh;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.card-img {
+    width: 100%;
+    height: 68%;
+    object-fit: cover;
+
+}
+
+.card-content {
+    text-align: center;
+    background-color: #23214E;
+    margin-top: -20px;
+    height: 100%;
+
+}
+
+.scroll-container-h-alter {
+    color: #F8F1F1;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.scroll-container-p-alter {
+    color: #C4C1C1;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.scroll-container-h2-alter {
+    font-weight: bold;
+    color: #C4C1C1;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.scroll-container-h3-alter {
+    color: #C4C1C1;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.span-blue-alter {
+    color: #1c95c2;
+}
+
+.a-span-alter {
+    align-items: left;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.nxt-talks-container-btnn {
+    background-color: #4C45F5;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    height: 50px;
+    width: 370px;
+    font-weight: 550;
+    border-radius: 10px;
+    border-width: 0px;
+    margin-bottom: 20px;
+
+}
+
+.review-section {
+    background-color: #010105;
+    height: 100%;
+    background-size: cover;
+    margin-top: -10px;
+    padding-bottom: 40px;
+}
+
+.review-section-h-alter {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.smile-review-section {
+    height: 65px;
+    width: 400px;
+    background-color: transparent;
+    border-color: #F29A16;
+    border-width: 2px solid;
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: #F29A16;
+    font-size: 20px;
+}
+
+.img-alter-review {
+    height: 50px;
+    margin-left: -20px;
+    margin-right: 15px;
+}
+
+.sub-review-section {
+    background-color: #252445;
+    height: 100%;
+    width: 80%;
+    background-size: cover;
+    margin-top: 40px;
+    border-radius: 15px;
+    margin-left: 50px;
+
+
+
+
+}
+
+.card-margin-alter {
+    margin-top: 20px;
+}
+
+.sub-review-section-img-alter {
+    height: 65px;
+    width: 60px;
+    margin-top: -60px;
+}
+
+.sub-review-section-h-alter {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: -50px;
+
+}
+
+.sub-review-section-h-s-alter {
+    color: white;
+    font-size: 10px;
+    font-weight: normal;
+    text-align: center;
+
+}
+
+.sub-review-section-img-alter-1 {
+    height: 55px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.sub-review-section-head-alter {
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.sub-review-section-head-span-alter {
+    color: #6C67F1;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+}
+
+.mic-background-section {
+
+    background-image: url("https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/64362e90abbff4b212d25fe3_A%20Rare%20Collection%20of%20Insider%20%20Knowledge%2C%20All%20Yours!%20(1).png");
+    background-size: cover;
+    height: 60%;
+    width: 100%;
+
+}
+
+.mic-background-section-h-alter {
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 45px;
+    font-size: 24px;
+}
+
+.mic-background-section-img-alter {
+    height: 100px;
+    width: 115px;
+    margin-top: 25px;
+}
+
+.mic-background-section-head-alter {
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 50px;
+
+}
+
+.mic-background-section-head-span-alter {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.details-content-section {
+    background-color: #03021F;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin-top: -17px;
+}
+
+.details-content-section-h-alter {
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.details-content-section-input-h-alter {
+    color: #E4E0E0;
+    font-weight: normal;
+    font-size: 22px;
+    padding-top: 25px;
+    padding-left: 23px;
+}
+
+.input-alter {
+    background-color: #252445;
+    border-style: solid;
+    border-radius: 10px;
+    color: #E4E0E0;
+    border-width: 0px;
+    height: 40px;
+    width: 70%;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.sub-part-section {
+    background-color: #252445;
+    height: 100%;
+    background-size: cover;
+    padding-bottom: 10px;
+    margin-top: -25px;
+}
+
+.sub-part-section-h-alter {
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    color: #E4E0E0;
+    padding-top: 20px;
+
+}
+
+/*------------Footer-Style-------------*/
+.footer-section {
+    padding: 50px 15% 10px;
+    background-color: #03021F;
+    color: #777;
+
+}
+
+
+.footer-section h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-bottom: 20px;
+
+}
+
+.footer-section-h3-alter {
+    font-weight: normal;
+    font-size: 15px;
+
+}
+
+
+.footer-section .col-12 {
+
+    margin-bottom: 20px;
+}
+
+.footer-section .col-12 a {
+    display: block;
+    color: #777;
+    font-weight: 450;
+}
+
+.footer-section .col-12 a:hover {
+    color: white;
+    transition: 1.3s;
+}
+
+.footer-section-h1-alter {
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+.footer-section.row {
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+.footer-section-img-alter {
+    margin-right: 20px;
+
+}
+
+.footer-section-head-allter {
+    color: grey;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: "Roboto";
+}
+
+.footer-section-head-allter:hover {
+    color: white;
+
+}
+
+.footer-section-h1-alter:hover {
+    color: white;
+}
